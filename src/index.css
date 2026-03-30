@@ -16,6 +16,23 @@ body {
   min-height: 100vh;
 }
 
+/* Breakpoints & Spacing System */
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+
+  --container-max: 1440px;
+  --container-padding: clamp(16px, 5vw, 80px);
+}
+
+/* Breakpoints */
+/* sm: 320px | md: 375px | lg: 768px | xl: 1024px | 2xl: 1440px */
+
 a {
   color: #0284c7;
   text-decoration: none;
